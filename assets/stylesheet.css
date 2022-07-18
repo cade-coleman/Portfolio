@@ -22,9 +22,17 @@ nav {
 
 
 
-.input{
-    width:40%;
-    color: aqua;
+input{
+    border-color: #192231;
+    width: 30%;
+    color: var(--dark);
+    justify-content: center;
+}
+
+form {
+    border: 5px solid var(--dark);
+    
+    
 }
 
 .flex-row {
@@ -187,3 +195,5 @@ quote-div:nth-child(6){animation-delay:1s}
     0%{opacity: 0}
     100%{opacity:1}
   }
+
+  
