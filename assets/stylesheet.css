@@ -122,18 +122,7 @@ form {
     animation-fill-mode:forwards;
   }
 
-  card-hover:nth-child(1){animation-delay:0s}
-  card-hover:nth-child(1){animation-delay:.2s}
-  card-hover:nth-child(1){animation-delay:.4s}
-  card-hover:nth-child(1){animation-delay:.6s}
-  card-hover:nth-child(1){animation-delay:.8s}
-  card-hover:nth-child(1){animation-delay:1s}
  
-
-@keyframes card-hover {
-    0%{opacity: 1}
-    100%{opacity:0}
-  }
 
 
 .text-bright{
@@ -230,9 +219,15 @@ quote-div:nth-child(6){animation-delay:1s}
   }
 
   
-  @media screen and (max-width: 768px) {
-    main,
-    .card {
-      flex-direction: column;
-    }
+  card-hover:nth-child(1){animation-delay:0s}
+  card-hover:nth-child(1){animation-delay:.2s}
+  card-hover:nth-child(1){animation-delay:.4s}
+  card-hover:nth-child(1){animation-delay:.6s}
+  card-hover:nth-child(1){animation-delay:.8s}
+  card-hover:nth-child(1){animation-delay:1s}
+ 
+
+@keyframes card-hover {
+    0%{opacity: 1}
+    100%{opacity:0}
   }
