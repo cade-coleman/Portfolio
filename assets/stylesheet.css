@@ -38,6 +38,9 @@ footer{
     text-align: center;
 }
 
+.hidden{
+    display: none;
+}
 
 .flex-row {
     flex: auto;
