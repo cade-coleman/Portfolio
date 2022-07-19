@@ -21,8 +21,8 @@
 
 <body>
 
-    <section >
-        <nav id="page-1" class="flex-row">
+    <section id="page-1">
+        <nav class="flex-row">
             <div class="flex-row align-left bg-color">
                 <h1 class="bg-color" id="namely">Cade Coleman</h1>
             </div>
@@ -37,7 +37,20 @@
                 <li class="bg-color"><a class=" bg-color listy text-bright" href="https://github.com/cade-coleman"
                         target="_blank">Github</a></li>
 
-                <li class="bg-color listy text-bright">Contact Information</li>
+                <li id='myBtn' class="bg-color listy text-bright">Contact Information</li>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Phone: 713-319-4736</p>
+                        <p>Email: cade828@gmail.com</p>
+                        <a href='https://www.linkedin.com/in/cade-coleman-101972203/' target="_blank">
+                            <p>LinkedIn</p>
+                        </a>
+                    </div>
             </ul>
         </nav>
 
@@ -54,8 +67,18 @@
             <div id="bio" class="align-left flex-row add-margin">
                 <img class="align-left" id="img" src="./assets/CadeHeadshotpng.png">
                 <div class="bio">
-                    <p class="bio tab">     The idea that the first version of someone's product should be embarrassing was a foreign idea to me when I began working, but I think this statement has a lot more going on under the hood than we realize. </p>
-                    <p class="bio tab">     Hi, my name is Cade Coleman.  I began working in the service industry at 15 and became a bar manager by 21.  I worked in chain restaurants, specialty coffee, a pub, and fine dining, and one thing that a great business owner taught me early on was this; it's okay to fail and learn, but it's not okay to fail and give up.  This ideology helped me in learning that the first step to forward progress is to try, then learn from mistakes and grow.  Thank you for taking time to look over my portfolio, I look forward to seeing how we can build value together.  - Cade Coleman</p>
+                    <p class="bio tab"> The idea that the first version of someone's product should be embarrassing was
+                        a foreign idea to me when I began working, but after years of working, I can confidently attest
+                        to the truth in Reid Hoffman’s statement.
+
+                    </p>
+                    <p class="bio tab">Hi, my name is Cade Coleman. I began working in the service industry at 15 and
+                        became a bar manager by 21. I worked in chain restaurants, specialty coffee, a pub, and fine
+                        dining. Early on in my career, one of my former bosses and great business owners told me, “It's
+                        okay to fail and learn, but it's not okay to fail and give up.” This ideology helped me in
+                        learning that the first step to forward progress is to try, then learn from mistakes and grow.
+                        Thank you for taking time to look over my portfolio, I look forward to seeing how we can build
+                        value together. - Cade Coleman</p>
                 </div>
             </div>
         </section>
@@ -99,10 +122,11 @@
                 <h1 class="projCard bg-color no-margin">Joke generator</h1>
             </a>
 
-            <a class="card bg-color card-text2" id="card-4"
-                href="https://youtu.be/0unsNvCVrW4">
+            <a class="card bg-color card-text2" id="card-4" href="https://youtu.be/0unsNvCVrW4">
 
-                <p class='bg-color card-text align-center  move-down'>This readme generator is simple to use and helps create a professional  readme directly from the comman line.  All you have to do is answer prompts.</p>
+                <p class='bg-color card-text align-center  move-down'>This readme generator is simple to use and helps
+                    create a professional readme directly from the comman line. All you have to do is answer prompts.
+                </p>
                 <img class="disappear " id="cardimg" src="./assets/Javascript_Logo.png">
 
                 <h1 class="projCard bg-color no-margin">README.md Generator</h1>
@@ -127,11 +151,11 @@
 
     </section>
 
-    <section id="page-2" class="hidden">
+    <!-- <section id="page-2" class="hidden">
 
         <h1>hello</h1>
         <p>hello hello hello</p>
-    </section>
+    </section> -->
 
 
     <footer class="flex-column">
@@ -139,7 +163,7 @@
             <h3 class="align-center">Made With love
             </h3>
         </div>
-        <div class="flex-row">
+        <div class="align-center">
             <h2 class="align-center">Cade Coleman</h2>
         </div>
     </footer>
