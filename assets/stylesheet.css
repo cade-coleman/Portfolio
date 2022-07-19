@@ -21,7 +21,6 @@ nav {
 }
 
 
-
 input{
     border-color: #192231;
     width: 30%;
@@ -31,7 +30,7 @@ input{
 
 form {
     border: 5px solid var(--dark);
-    
+
     
 }
 
@@ -39,6 +38,7 @@ form {
     flex: auto;
     display: flex;
     flex-direction: row;
+
     margin: 25px;
 }
 
@@ -85,6 +85,10 @@ form {
     font-size: 40px;
 }
 
+.folio{
+    text-align: center;
+}
+
 .bio {
     text-align: center;
     vertical-align: middle;
@@ -95,6 +99,8 @@ form {
     margin: 60px;
 }
 
+
+
 .cards {
     height: 400px;
     justify-content: space-around;
@@ -103,29 +109,47 @@ form {
 .card {
     width: 20%;
     background-color: var(--green);
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 7px 7px;
+    flex: 0 0 300px;
+    flex-wrap: wrap;
 
 }
 
-.card:hover {
-    box-shadow: 0px 0px 8px 10px rgb(27, 27, 46);
-   
-}
+.disappear:hover {
+    opacity: 1;
+    animation-name: card-hover;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+  }
+
+  card-hover:nth-child(1){animation-delay:0s}
+  card-hover:nth-child(1){animation-delay:.2s}
+  card-hover:nth-child(1){animation-delay:.4s}
+  card-hover:nth-child(1){animation-delay:.6s}
+  card-hover:nth-child(1){animation-delay:.8s}
+  card-hover:nth-child(1){animation-delay:1s}
+ 
+
+@keyframes card-hover {
+    0%{opacity: 1}
+    100%{opacity:0}
+  }
+
 
 .text-bright{
     color: var(--beige);
 
 }
 .projCard {
-    background-color: aliceblue;
-    vertical-align: middle;
     height: 48px;
     border-radius: 7px 7px 7px 7px;
+    color:#f4f4f4;
+    font-weight: bold;
 }
 
 .card-text {
     font-size: 18;
-    color:white;
+    color: var(--green);
     margin: 0;
     text-align: center;
     text-decoration: none;
@@ -139,9 +163,18 @@ form {
     text-decoration: none;
     }
 
+    .no-margin{
+        margin: 0px;
+    }
+
+  .move-down{
+    margin-bottom: -40%;
+    color: #f4f4f4;
+  }
+
 #cardimg {
     width: 100%;
-    height: 50%;
+    height: 80%;
     margin:0px;
     border-radius: 7px 7px 7px 7px;
 }
@@ -197,3 +230,9 @@ quote-div:nth-child(6){animation-delay:1s}
   }
 
   
+  @media screen and (max-width: 768px) {
+    main,
+    .card {
+      flex-direction: column;
+    }
+  }
