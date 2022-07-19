@@ -1,8 +1,8 @@
 * {
     margin: 5px;
-    font-size: 22px;
+    font-size: 20px;
     background-color: var(--beige);
-   
+    font-family: 'Libre Franklin', sans-serif;
       
 }
 
@@ -87,7 +87,9 @@ footer{
 
 .quote {
     width: 100%;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
 }
 
 .folio{
@@ -112,7 +114,7 @@ footer{
 }
 
 .card {
-    width: 20%;
+    width: 15%;
     background-color: var(--green);
     border-radius: 7px 7px 7px 7px;
     flex: 0 0 300px;
@@ -127,10 +129,7 @@ footer{
     animation-fill-mode:forwards;
   }
 
- 
-
-
-.text-bright{
+ .text-bright{
     color: var(--beige);
 
 }

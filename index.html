@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+SC:wght@700&family=Libre+Franklin:wght@600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/stylesheet.css">
+    
 
     <title>Welcome</title>
 </head>
@@ -15,113 +20,126 @@
 
 <body>
 
-<section>
-    <nav class="flex-row">
-        <div class="flex-row align-left bg-color">
-            <h1 class="bg-color" id="namely">Cade Coleman</h1>
-        </div>
+    <section>
+        <nav class="flex-row">
+            <div class="flex-row align-left bg-color">
+                <h1 class="bg-color" id="namely">Cade Coleman</h1>
+            </div>
 
-        <ul class="flex-row align-right bg-color">
-            <li class="bg-color"><a class=" bg-color listy text-bright" href="">About Me</a></li>
+            <ul class="flex-row align-right bg-color">
+                <li class="bg-color"><a class=" bg-color listy text-bright" href="">About Me</a></li>
 
-            <li class="bg-color"><a class=" bg-color listy text-bright" href="https://docs.google.com/document/d/1kCPwkmtbWvkNE5HHiuGUG6pAO05brVpK/edit?usp=sharing&ouid=106708589405243140901&rtpof=true&sd=true" target="_blank">Resume</a></li>
+                <li class="bg-color"><a class=" bg-color listy text-bright"
+                        href="https://docs.google.com/document/d/1kCPwkmtbWvkNE5HHiuGUG6pAO05brVpK/edit?usp=sharing&ouid=106708589405243140901&rtpof=true&sd=true"
+                        target="_blank">Resume</a></li>
 
-            <li class="bg-color"><a class=" bg-color listy text-bright" href="https://github.com/cade-coleman" target="_blank" >Github</a></li>
+                <li class="bg-color"><a class=" bg-color listy text-bright" href="https://github.com/cade-coleman"
+                        target="_blank">Github</a></li>
 
-            <li class="bg-color"><a class=" bg-color listy text-bright" href="">Contact Information</a></li>
-        </ul>
-    </nav>
-
-    <br><br>
-
-    <section id="quote-div" class="sec-1 add-margin">
-        <div class="flex-row">
-            <h3 class="align-center quote">If you are not embarrassed by the first version of your product, you've
-                launched too
-                late. - Reid Hoffman</h3>
-        </div>
+                <li class="bg-color"><a class=" bg-color listy text-bright" href="">Contact Information</a></li>
+            </ul>
+        </nav>
 
         <br><br>
 
-        <div id="bio" class="align-left flex-row add-margin">
-            <img id="img" src="./assets/cadeheadshot.png">
-            <div class="bio">
-                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+        <section id="quote-div" class="sec-1 add-margin">
+            <div class="flex-row">
+                <h3 class="align-center quote">If you are not embarrassed by the first version of your product, you've
+                    launched too
+                    late. - Reid Hoffman</h3>
             </div>
+
+            <br><br>
+
+            <div id="bio" class="align-left flex-row add-margin">
+                <img id="img" src="./assets/cadeheadshot.png">
+                <div class="bio">
+                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+        <br><br>
+
+        <div>
+            <h1 class="align-center quote folio">Portfolio</h1>
         </div>
+
+        <main class="flex-row cards add-margin">
+
+
+
+            <a class="card bg-color card-text2" id="card-1"
+                href="https://cade-coleman.github.io/Javascript-Password-Generator/">
+
+                <p class='bg-color card-text align-center  move-down'>This simple Javascript password generator takes in
+                    several values upon your input after you've been prompted and builds a unique password. </p>
+                <img class="disappear" id="cardimg" src="./assets/Javascript_Logo.png">
+                <h1 class="projCard bg-color no-margin">Password Gernerator</h1>
+            </a>
+
+            <a class="card bg-color card-text2" id="card-2"
+                href="https://cade-coleman.github.io/STAR-WARS-triviaGame//">
+
+                <p class='bg-color card-text align-center  move-down'>This trivia game served as a fun start to my
+                    journey
+                    using CSS. Enjoy the fun animations while testing your Star Wars knowledge</p>
+                <img class="disappear" id="cardimg" src="./assets/CSS.png">
+                <h1 class="projCard bg-color no-margin">Star Wars Trivia</h1>
+            </a>
+
+            <a class="card bg-color card-text2" id="card-3" href="https://sergeyholin.github.io/Have-A-Laugh/">
+
+                <p class='bg-color card-text align-center  move-down'>Developed by a small team, Have a Laugh is a joke
+                    generating website that will allow you let your hair down and laugh for a minute or two. </p>
+                <img class="disappear" id="cardimg" src="./assets/images.png">
+
+                <h1 class="projCard bg-color no-margin">Joke generator</h1>
+            </a>
+
+            <a class="card bg-color card-text2" id="card-4"
+                href="https://cade-coleman.github.io/Javascript-Password-Generator/">
+
+                <p class='bg-color card-text align-center  move-down'>Lorem ipsum dolor sit amet, em ipsum dolor sit
+                    amet,
+                    consectetur adipiscingelit, sed do eiusmodem ipsum dolor sit amet,</p>
+                <img class="disappear " id="cardimg" src="./assets/Javascript_Logo.png">
+
+                <h1 class="projCard bg-color no-margin">Password Gernerator</h1>
+            </a>
+
+
+
+
+
+        </main>
+
+        <form action="https://formsubmit.co/d8919638da130a55f408ca7c0649b9ee" method="POST">
+            <div class="flex-column">
+                <h1>Get in Contact with me!</h1>
+                <input class="input align-center" type="text" placeholder="Name">
+                <input class="input align-center" type="email" name="email" placeholder="Email Address">
+                <input class="input align-center" type="hidden" name="_next"
+                    value="https://cade-coleman.github.io/Portfolio/">
+                <button class="btn1">Submit</button>
+            </div>
+        </form>
+
     </section>
 
-    <br><br>
-    <br><br>
-
-    <div>
-        <h1 class="align-center quote folio">Portfolio</h1>
-    </div>
-
-    <main class="flex-row cards add-margin">
+    <section>
 
 
-
-        <a class="card bg-color card-text2" id="card-1" href="https://cade-coleman.github.io/Javascript-Password-Generator/">
-
-            <p class='bg-color card-text align-center  move-down'>This simple Javascript password generator takes in
-                several values upon your input after you've been prompted and builds a unique password. </p>
-            <img class="disappear" id="cardimg" src="./assets/Javascript_Logo.png">
-            <h1 class="projCard bg-color no-margin">Password Gernerator</h1>
-        </a>
-
-        <a class="card bg-color card-text2" id="card-2" href="https://cade-coleman.github.io/STAR-WARS-triviaGame//">
-
-            <p class='bg-color card-text align-center  move-down'>This trivia game served as a fun start to my journey
-                using CSS. Enjoy the fun animations while testing your Star Wars knowledge</p>
-            <img class="disappear" id="cardimg" src="./assets/CSS.png">
-            <h1 class="projCard bg-color no-margin">Star Wars Trivia</h1>
-        </a>
-
-        <a class="card bg-color card-text2" id="card-3" href="https://sergeyholin.github.io/Have-A-Laugh/">
-
-            <p class='bg-color card-text align-center  move-down'>Developed by a small team, Have a Laugh is a joke
-                generating website that will allow you let your hair down and laugh for a minute or two. </p>
-            <img class="disappear" id="cardimg" src="./assets/images.png">
-
-            <h1 class="projCard bg-color no-margin">Joke generator</h1>
-        </a>
-
-        <a class="card bg-color card-text2" id="card-4" href="https://cade-coleman.github.io/Javascript-Password-Generator/">
-
-            <p class='bg-color card-text align-center  move-down'>Lorem ipsum dolor sit amet, em ipsum dolor sit amet,
-                consectetur adipiscingelit, sed do eiusmodem ipsum dolor sit amet,</p>
-                <img class="disappear " id="cardimg" src="./assets/Javascript_Logo.png">
-               
-            <h1 class="projCard bg-color no-margin">Password Gernerator</h1>
-        </a>
-
-
-
-
-
-    </main>
-
-    <form action="https://formsubmit.co/d8919638da130a55f408ca7c0649b9ee" method="POST">
-        <div class="flex-column">
-            <h1>Get in Contact with me!</h1>
-            <input class="input align-center" type="text" placeholder="Name">
-            <input class="input align-center" type="email" name="email" placeholder="Email Address">
-            <input class="input align-center" type="hidden" name="_next" value="https://cade-coleman.github.io/Portfolio/">
-            <button class="btn1">Submit</button>
-        </div>
-    </form>
-
-</section>
-
-<section>
-
-
-</section>
+    </section>
 
 
     <footer>
