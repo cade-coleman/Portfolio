@@ -1,7 +1,8 @@
 * {
     margin: 5px;
     font-size: 20px;
-    background-color: var(--beige);
+    color: #192231;
+    background-color: var(--white);
     font-family: 'Libre Franklin', sans-serif;
       
 }
@@ -17,7 +18,7 @@
 nav {
     background-color: var(--green);
     border-radius: 5px 5px 5px 5px;
-    color: #eddbcd;
+    color: var(--beige);
 }
 
 
@@ -93,6 +94,7 @@ footer{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Cormorant SC', serif;
+    justify-content: center;
 }
 
 .folio{
@@ -100,7 +102,7 @@ footer{
 }
 
 .bio {
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     margin-top: 20px;
 }
@@ -183,6 +185,7 @@ footer{
 #namely {
     font-weight: bold;
     font-size: 40px;
+    color:#eddbcd
 
 }
 
