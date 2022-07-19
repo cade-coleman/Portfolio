@@ -4,10 +4,10 @@
     color: #192231;
     background-color: var(--white);
     font-family: 'Libre Franklin', sans-serif;
-      
+
 }
 
-:root{
+:root {
     --dark: #192231;
     --green: #404A42;
     --sand: #c0b283;
@@ -22,24 +22,26 @@ nav {
 }
 
 
-input{
-    border-color: #192231;
+input {
+
     width: 30%;
-    color: var(--dark);
-    justify-content: center;
+
 }
 
 form {
     border: 5px solid var(--dark);
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: baseline;
 
-    
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -58,7 +60,7 @@ footer{
     margin: 25px;
 }
 
-.btn1{
+.btn1 {
     width: 90px;
 }
 
@@ -97,7 +99,7 @@ footer{
     justify-content: center;
 }
 
-.folio{
+.folio {
     text-align: center;
 }
 
@@ -131,17 +133,18 @@ footer{
     opacity: 1;
     animation-name: card-hover;
     animation-duration: 2s;
-    animation-fill-mode:forwards;
-  }
+    animation-fill-mode: forwards;
+}
 
- .text-bright{
+.text-bright {
     color: var(--beige);
 
 }
+
 .projCard {
     height: 48px;
     border-radius: 7px 7px 7px 7px;
-    color:#f4f4f4;
+    color: #f4f4f4;
     font-weight: bold;
 }
 
@@ -153,94 +156,162 @@ footer{
     text-decoration: none;
 }
 
+.tab {
+    text-indent: 40px
+}
+
 .card-text2 {
     font-size: 22;
     color: var(--dark);
     margin: 0;
     text-align: center;
     text-decoration: none;
-    }
+}
 
-    .no-margin{
-        margin: 0px;
-    }
+.no-margin {
+    margin: 0px;
+}
 
-  .move-down{
+.move-down {
     margin-bottom: -40%;
     color: #f4f4f4;
-  }
+}
 
 #cardimg {
     width: 100%;
     height: 80%;
-    margin:0px;
+    margin: 0px;
     border-radius: 7px 7px 7px 7px;
 }
 
 #img {
     border-radius: 10px 0px 0px 10px;
-    height: 200px;
+    height: 250px;
     width: 200px;
- 
+
 }
 
 #namely {
     font-weight: bold;
     font-size: 40px;
-    color:#eddbcd
-
+    color: #eddbcd
 }
-
 
 
 #quote-div {
     opacity: 0;
     animation-name: quote-load;
     animation-duration: 5s;
-    animation-fill-mode:forwards;
-  }
+    animation-fill-mode: forwards;
+}
 
-  quote-div:nth-child(1){animation-delay:0s}
-  quote-div:nth-child(2){animation-delay:0.0s}
-  quote-div:nth-child(3){animation-delay:0.3s}
-  quote-div:nth-child(4){animation-delay:0.6s}
-  quote-div:nth-child(5){animation-delay:0.8s}
-  quote-div:nth-child(6){animation-delay:1s}
+quote-div:nth-child(1) {
+    animation-delay: 0s
+}
+
+quote-div:nth-child(2) {
+    animation-delay: 0.0s
+}
+
+quote-div:nth-child(3) {
+    animation-delay: 0.3s
+}
+
+quote-div:nth-child(4) {
+    animation-delay: 0.6s
+}
+
+quote-div:nth-child(5) {
+    animation-delay: 0.8s
+}
+
+quote-div:nth-child(6) {
+    animation-delay: 1s
+}
 
 @keyframes quote-load {
-    0%{opacity: 0}
-    100%{opacity:1}
-  }
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
 
 #bio {
     opacity: 0;
     animation-name: bio-load;
     animation-duration: 10s;
-    animation-fill-mode:forwards;
-  }
+    animation-fill-mode: forwards;
+}
 
-quote-div:nth-child(1){animation-delay:0s}
-quote-div:nth-child(2){animation-delay:0.0s}
-quote-div:nth-child(3){animation-delay:0.3s}
-quote-div:nth-child(4){animation-delay:0.6s}
-quote-div:nth-child(5){animation-delay:0.8s}
-quote-div:nth-child(6){animation-delay:1s}
+quote-div:nth-child(1) {
+    animation-delay: 0s
+}
+
+quote-div:nth-child(2) {
+    animation-delay: 0.0s
+}
+
+quote-div:nth-child(3) {
+    animation-delay: 0.3s
+}
+
+quote-div:nth-child(4) {
+    animation-delay: 0.6s
+}
+
+quote-div:nth-child(5) {
+    animation-delay: 0.8s
+}
+
+quote-div:nth-child(6) {
+    animation-delay: 1s
+}
 
 @keyframes bio-load {
-    0%{opacity: 0}
-    100%{opacity:1}
-  }
+    0% {
+        opacity: 0
+    }
 
-  
-  card-hover:nth-child(1){animation-delay:0s}
-  card-hover:nth-child(1){animation-delay:.2s}
-  card-hover:nth-child(1){animation-delay:.4s}
-  card-hover:nth-child(1){animation-delay:.6s}
-  card-hover:nth-child(1){animation-delay:.8s}
-  card-hover:nth-child(1){animation-delay:1s}
- 
+    100% {
+        opacity: 1
+    }
+}
+
+
+card-hover:nth-child(1) {
+    animation-delay: 0s
+}
+
+card-hover:nth-child(1) {
+    animation-delay: .2s
+}
+
+card-hover:nth-child(1) {
+    animation-delay: .4s
+}
+
+card-hover:nth-child(1) {
+    animation-delay: .6s
+}
+
+card-hover:nth-child(1) {
+    animation-delay: .8s
+}
+
+card-hover:nth-child(1) {
+    animation-delay: 1s
+}
+
 
 @keyframes card-hover {
-    0%{opacity: 1}
-    100%{opacity:0}
-  }
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
