@@ -34,6 +34,11 @@ form {
     
 }
 
+footer{
+    text-align: center;
+}
+
+
 .flex-row {
     flex: auto;
     display: flex;
@@ -175,6 +180,7 @@ form {
 
 #namely {
     font-weight: bold;
+    font-size: 40px;
 
 }
 
